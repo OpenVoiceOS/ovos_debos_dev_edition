@@ -3,7 +3,7 @@
 (systemctl enable mycroft-messagebus.service)
 (systemctl enable mycroft-audio.service)
 (systemctl enable mycroft-voice.service)
-(systemctl enable mycroft-enclosure-gui.service)
+(systemctl enable mycroft-gui-daemon.service)
 (systemctl enable mycroft-skills.service)
 (systemctl enable mycroft-gui.service)
 

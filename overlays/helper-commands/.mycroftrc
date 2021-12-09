@@ -1,2 +1,0 @@
-# Add Mycroft helper commands to $PATH
-export PATH="/home/$USER/mycroft-core/bin:$PATH"

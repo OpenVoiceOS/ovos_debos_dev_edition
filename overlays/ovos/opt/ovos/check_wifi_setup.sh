@@ -3,5 +3,5 @@
 ip route | grep default
 
 if [ $? != 0 ]; then
-  wifi-connect  --portal-ssid Neon
+  wifi-connect  --portal-ssid OVOS
 fi
