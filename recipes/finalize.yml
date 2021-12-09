@@ -34,10 +34,15 @@ actions:
     script: ../scripts/97-enable-services.sh
 
   - action: run
-    description: Install default ovos skills
+    description: Install default ovos skill plugins
     chroot: true
-    script: ../scripts/99-install-ovos-skills.sh
-    
+    script: ../scripts/98-install-plugin-skills.sh
+
+  - action: run
+    description: Install default ovos local skills
+    chroot: true
+    script: ../scripts/99-install-local-skills.sh
+
   - action: run
     description: Create bmap file
     postprocess: true

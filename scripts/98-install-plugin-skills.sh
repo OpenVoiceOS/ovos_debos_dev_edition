@@ -1,6 +1,5 @@
 # Install OVOS Skills
-echo "**** Installing Skills ****"
-mkdir -p /home/mycroft/.local/share/mycroft/skills/
+echo "**** Installing Plugin Skills ****"
 
 pip3 install https://github.com/OpenVoiceOS/ovos-skill-fallback-unknown/archive/dev.zip
 pip3 install https://github.com/OpenVoiceOS/skill-ovos-stop/archive/dev.zip
@@ -14,7 +13,3 @@ pip3 install https://github.com/OpenVoiceOS/skill-naptime/archive/dev.zip
 pip3 install https://github.com/OpenVoiceOS/skill-balena-wifi-setup/archive/dev.zip
 pip3 install https://github.com/OpenVoiceOS/skill-weather/archive/dev.zip
 
-chown -R 32011:32011 /home/mycroft/.local/share/mycroft/skills/
-chown -R 32011:32011 /home/mycroft/
-chmod -R ugo+x /usr/local/sbin
-chmod -R ugo+x /opt/ovos
