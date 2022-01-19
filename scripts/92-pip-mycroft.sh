@@ -62,6 +62,26 @@
 (echo "**** Installing Request Cache ****")
 (pip3 install requests_cache)
 
+# Install OVOS Bus metapackage
+(echo "**** Installing ovos-gui ****")
+(pip3 install git+https://github.com/OpenVoiceOS/ovos-bus)
+
+# Install OVOS GUI metapackage
+(echo "**** Installing ovos-gui ****")
+(pip3 install git+https://github.com/OpenVoiceOS/ovos-gui)
+
+# Install OVOS Skills metapackage
+(echo "**** Installing ovos-skills ****")
+(pip3 install git+https://github.com/OpenVoiceOS/ovos-skills)
+
+# Install OVOS Audio metapackge
+(echo "**** Installing ovos-audio ****")
+(pip3 install git+https://github.com/OpenVoiceOS/ovos-audio)
+
+# Install OVOS Speech metapackage
+(echo "**** Installing ovos-speech ****")
+(pip3 install git+https://github.com/OpenVoiceOS/ovos-speech)
+
 mkdir -p /var/log/mycroft
 chown -R 32011:32011 /home/mycroft
 chown -R 32011:32011 /var/log/mycroft
