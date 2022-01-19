@@ -64,23 +64,23 @@
 
 # Install OVOS Bus metapackage
 (echo "**** Installing ovos-gui ****")
-(pip3 install git+https://github.com/OpenVoiceOS/ovos-bus)
+(pip3 install ovos-bus==0.0.2a1.post1)
 
 # Install OVOS GUI metapackage
 (echo "**** Installing ovos-gui ****")
-(pip3 install git+https://github.com/OpenVoiceOS/ovos-gui)
+(pip3 install ovos-gui==0.0.2a1.post1)
 
 # Install OVOS Skills metapackage
 (echo "**** Installing ovos-skills ****")
-(pip3 install git+https://github.com/OpenVoiceOS/ovos-skills)
+(pip3 install ovos-skills==0.0.2a1.post1)
 
 # Install OVOS Audio metapackge
 (echo "**** Installing ovos-audio ****")
-(pip3 install git+https://github.com/OpenVoiceOS/ovos-audio)
+(pip3 install ovos-audio==0.0.2a1.post1)
 
 # Install OVOS Speech metapackage
 (echo "**** Installing ovos-speech ****")
-(pip3 install git+https://github.com/OpenVoiceOS/ovos-speech)
+(pip3 install ovos-speech==0.0.2a1.post1)
 
 mkdir -p /var/log/mycroft
 chown -R 32011:32011 /home/mycroft
